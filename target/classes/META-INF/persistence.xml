@@ -5,13 +5,7 @@
 
     <persistence-unit name="atividadep3" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
-
-        <class>entidades.Pessoa</class>
-        <class>entidades.Dono</class>
-        <class>entidades.Funcionario</class>
         <class>entidades.Animal</class>
-        <class>entidades.Servico</class>
-        <exclude-unlisted-classes>true</exclude-unlisted-classes>
 
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
